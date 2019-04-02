@@ -5,7 +5,7 @@ A Tensorflow implementation of [SSD](https://arxiv.org/abs/1512.02325) from the 
 
 DATASET
 -------
-#VOC_DATADET<br>
+
 You can edit the data and path information yourself in the `tf_convert_data.py` file, then run `python tf_convert_data.py`<br>
 Note the previous command generated a collection of TF-Records instead of a single file in order to ease shuffling during training.<br>
 
