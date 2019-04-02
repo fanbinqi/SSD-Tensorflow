@@ -10,3 +10,15 @@ You can edit the data and path information yourself in the `tf_convert_data.py` 
 Note the previous command generated a collection of TF-Records instead of a single file in order to ease shuffling during training.<br>
 
 
+Pre-trained model
+-------------------------------
+SSD300 trained on VOC0712[balancap/SSD-Tensorflow](https://github.com/balancap/SSD-Tensorflow)
+
+Train
+---------
+`python train.py` You can track your training on the tensorboard real time
+
+In addition
+-------
+We implemented Mobilenet2-SSD, you can change framework in `nets/ssd_300_mobilenet2.py` Mobilenet-v2 is an improved version of Mobilenet, but we found that it's not a big improvement for detection. we will release the detector called FFBNet based on mobilenet and submit it in ICIP2019. I hope it will a good result.
+
