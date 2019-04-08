@@ -16,7 +16,7 @@ SSD300 trained on VOC0712[balancap/SSD-Tensorflow](https://github.com/balancap/S
 
 Train
 ---------
-`python train.py` You can track your training on the tensorboard real time
+`python train.py` You can track your training on the tensorboard real time <br>
 In the CITY data set, single-class vehicles have reached the 84% mAP
 
 In addition
