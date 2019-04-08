@@ -25,4 +25,4 @@ We implemented *Mobilenet2-SSD*, you can change framework in `nets/ssd_300_mobil
 
 Modified Network
 ---------------------
-There are two improved network structures for SSD, [CEBNet](https://github.com/dlyldxwl/CEBNet) ICME2019, and `FFBNet` ICIP2019 under review.
+There are two improved network structures for SSD, [CEBNet](https://github.com/dlyldxwl/CEBNet) ICME2019.
