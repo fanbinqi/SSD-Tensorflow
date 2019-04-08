@@ -21,5 +21,8 @@ In the CITY data set, single-class car have reached the 84% mAP
 
 In addition
 -------
-We implemented *Mobilenet2-SSD*, you can change framework in `nets/ssd_300_mobilenet2.py` Mobilenet-v2 is an improved version of Mobilenet, but we found that it's not a big improvement for detection. we will release the detector called `FFBNet` and [FSSD](https://github.com/fanbinqi/FSSD-reimplementation) based on mobilenet and submit it in ICIP2019. I hope it will be a good result.
+We implemented *Mobilenet2-SSD*, you can change framework in `nets/ssd_300_mobilenet2.py` Mobilenet-v2 is an improved version of Mobilenet, but we found that it's not a big improvement for detection. we will release the detector called `FFBNet` and [FSSD](https://github.com/fanbinqi/FSSD-reimplementation) based on mobilenet and submit it in ICIP2019. I hope it will be a good result.<br>
 
+Modified Network
+---------------------
+There are two improved network structures for SSD, [CEBNet](https://github.com/dlyldxwl/CEBNet) ICME2019, and `FFBNet` ICIP2019 under review.
